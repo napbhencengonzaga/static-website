@@ -1,5 +1,5 @@
 body {
-    background-color: burlywood;
+    background-color: tan;
 }
 h1, h2 {
     color: black;
@@ -9,4 +9,7 @@ h1, h2 {
 #my-avatar {
     width:  150px;
     border-radius: 50%;
+}
+#content {
+    text-align: center;
 }
