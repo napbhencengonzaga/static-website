@@ -1,8 +1,12 @@
 body {
-    background-color: whitesmoke;
+    background-color: burlywood;
 }
 h1, h2 {
-    color: burlywood;
+    color: black;
 }p {
-    color: burlywood;
+    color: black;
+}
+#my-avatar {
+    width:  150px;
+    border-radius: 50%;
 }
