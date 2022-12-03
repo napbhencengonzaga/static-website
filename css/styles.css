@@ -26,3 +26,27 @@ body {
     font-family: 'Berkshire Swash', cursive;
     color: #5F8D4E; 
 }
+
+#left-side {
+    width: 50%;
+    display: inline-block;
+}
+
+#right-side {
+    width: 49%;
+    display: inline-block;
+    text-align: right; 
+}
+
+a {
+    color: #285430;
+    text-decoration: none;
+    border-bottom: 1px dotted #285430;
+}
+header {
+    margin-top: 16px;
+}
+.nav-link {
+    margin-left: 8px;
+}
+
