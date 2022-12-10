@@ -7,6 +7,13 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
 body {
     background-color: #E5D9B6 ;
     font-family: 'Solway', serif;
@@ -48,5 +55,15 @@ header {
 }
 .nav-link {
     margin-left: 8px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 16px;
+}
+footer a:first-child {
+    margin-right: 16px;
 }
 
