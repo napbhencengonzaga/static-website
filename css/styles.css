@@ -75,3 +75,28 @@ footer a:first-child {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Project page */
+
+#hero-banner {
+background: linear-gradient(90deg, tan, powderblue, khaki);
+padding-top: 16px;
+padding-bottom: 16px;
+}
+
+#hero-banner > div {
+    width: 50%;
+    margin: 0 auto;
+}
+#hero-banner > div > div {
+    display: inline-block;
+}
+#hero-banner h1,
+#hero-banner h2 {
+color: #5F8D4E;
+}
+h3 {
+    text-align: center;
+    font-size: 32px;
+    color: #5F8D4E;
+}
