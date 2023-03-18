@@ -86,9 +86,14 @@ background: linear-gradient(90deg, tan, powderblue, khaki);
     column-gap: 16px;
     padding: 16px;
 }
-#hero-banner > div > div {
-    display: inline-block;
+
+@media (min-width: 426px) and (max-width: 768px) {
+    #hero-banner > div {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
+
 #hero-banner h1,
 #hero-banner h2 {
 color: #5F8D4E;
@@ -106,4 +111,3 @@ h3 {
     text-align: center;
     font-size: 32px;
     color: #5F8D4E;
-}
