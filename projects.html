@@ -5,35 +5,188 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nap Bhencen Gonzaga - Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+      body {
+        height: auto;
+      }
+
+      section.project > img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+
+      p.description{
+        padding: 16px;
+      }
+
+      ul.techs {
+        list-style: none;
+        text-align: center;
+      }
+
+      ul.techs::before {
+        content: "Made with: ";
+      }
+
+      ul.techs > li {
+        display: inline-block;
+      }
+
+      ul.techs > li:not(:last-child)::after {
+        content: ", ";
+      }
+
+      footer {
+        position: initial;
+      }
+
+      @media (min-width: 426px) and (max-width: 768px) {
+        section#projects {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          column-gap: 2px;
+          row-gap: 16px;
+        }
+
+        section.project{
+          width: 49%;
+        }
+      }
+    </style>
 </head>
 <body>
 <header>
       <nav id="left-side">
+        <i class="fa-solid fa-house"></i>
         <a href="./index.html">Home</a>
+        <i class="fa-solid fa-folder"></i>
         <a href="./projects.html">Projects</a>
       </nav>
     
 <nav id="right-side">
-  <a href="https://github.com/napbhencengonzaga">Github Profile</a>
+  <i class="fa-brands fa-github"></i>
+  <a href="https://github.com/napbhencengonzaga">Github</a>
 </nav>
       </header>
       <section id="hero-banner">
         <div>
-          <img 
-  src="./images/itsmeee.jpg" 
-  alt="cute avatar"
-  id="my-avatar">
-  <div>
+          <section>
+            <img src="./images/itsmeee.jpg" 
+            alt="cute avatar"
+            id="my-avatar">
+          </section>
+  <section>
   <h1 id="my-name">Nap Bhencen Gonzaga</h1>
   <h2>Junior Web Developer</h2>
-  </div>
+  </section>
         </div>
       </section>
     <h3>Projects</h3>
+    <!--- A collection of projects -->
+    <scetion id="projects">
+      <section class="project">
+<img 
+src="https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.
+3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=
+crop&w=404&q=80" 
+alt="a placeholder image of a project">
+<h3>Project 1</h3>
+<ul class="techs">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Provident voluptatum veritatis ad, quasi iste necessitatibus itaque sequi cum 
+  maxime ex impedit, minima nemo repellat suscipit atque laudantium vero 
+  deserunt cumque. </p>
+      </section>
+
+<section class="project">
+<img 
+src="https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.
+3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=
+crop&w=404&q=80" 
+alt="a placeholder image of a project">     
+<h3>Project 2</h3>
+<ul class="techs">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Provident voluptatum veritatis ad, quasi iste necessitatibus itaque sequi cum 
+  maxime ex impedit, minima nemo repellat suscipit atque laudantium vero 
+  deserunt cumque. </p>
+      </section>
+
+<section class="project">
+<img 
+src="https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.
+3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=
+crop&w=404&q=80" 
+alt="a placeholder image of a project">
+<h3>Project 3</h3>
+<ul class="techs">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Provident voluptatum veritatis ad, quasi iste necessitatibus itaque sequi cum 
+  maxime ex impedit, minima nemo repellat suscipit atque laudantium vero 
+  deserunt cumque. </p>
+     </section>
+                      
+<section class="project">
+<img 
+src="https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.
+3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=
+crop&w=404&q=80" 
+alt="a placeholder image of a project">
+<h3>Project 4</h3>
+<ul class="techs">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Provident voluptatum veritatis ad, quasi iste necessitatibus itaque sequi cum 
+  maxime ex impedit, minima nemo repellat suscipit atque laudantium vero 
+  deserunt cumque. </p>
+     </section>
+
+<section class="project">
+<img 
+src="https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.
+3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=
+crop&w=404&q=80" 
+alt="a placeholder image of a project">
+<h3>Project 5</h3>
+<ul class="techs">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Provident voluptatum veritatis ad, quasi iste necessitatibus itaque sequi cum 
+  maxime ex impedit, minima nemo repellat suscipit atque laudantium vero 
+  deserunt cumque. </p>
+     </section>                        
+                                      
+    </scetion>
     <footer>
+      <section>
+      <i class="fa-brands fa-linkedin"></i>
       <a href="https://www.linkedin.com/in/nap-bhencen-gonzaga-65020025a">LinkedIn</a>
+      <i class="fa-brands fa-free-code-camp"></i>
       <a href="https://www.freecodecamp.org/napbhencengonzaga">Free Code Camp</a>
+      </section>
     </footer>
 </body>
 </html>
